@@ -7,8 +7,8 @@ export default class BookList extends Componet {
         <li key={book.title} className="list-group-item">
           {book.title}
         </li>
-      )
-    })
+      );
+    });
   }
 
   render() {
