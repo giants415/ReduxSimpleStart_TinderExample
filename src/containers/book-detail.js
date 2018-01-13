@@ -9,7 +9,7 @@ class BookDetail extends Component {
   }
 }
 
-funciton mapStateToProps(state) {
+function mapStateToProps(state) {
   return {
     book: state.activeBook
   };
