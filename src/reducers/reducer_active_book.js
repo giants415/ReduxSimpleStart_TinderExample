@@ -13,3 +13,6 @@ export default function(state = null, action) {
 
   return state;
 }
+
+
+// DONT MUTATE THE STATE OBJECT HERE, ALWAYS RETURN A "FRESH" object
